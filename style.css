@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    padding: 0;
+    font: 16px Arial, Tahoma;
+    background-color: rgb(238, 235, 235);
+}
+header{
+    background-color: #ff9100;
+    width: 100%;
+    height: 80px;
+    box-sizing: border-box;
+    display: block;
+}
+
+header nav{
+    float: right;
+    margin-right: 40px;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    margin: 15px;
+    display: inline-block;
+}
+
+header nav ul li a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+header nav ul li a:hover{
+    color: #000;
+}
+
+.logo{
+    margin: 20px 0 0 20px;
+    color: #000;
+}
+
+main{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+main form{
+    margin: 0 auto;
+    display: block;
+    width: 800px;
+}
+
+h1{
+    text-align: center;
+}
+
+/*.zoom{
+    overflow: hidden;
+}*/
+
+.imgmini{
+    max-width: 100%;
+    width: 250px;
+}
+
+.zoom .imgmini {
+	max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+    margin: 50px 0 10px 30px;
+    border-radius: 3px;
+    box-shadow: 0 0 10px #000;
+}
+
+.zoom:hover .imgmini {
+	-moz-transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 500px 400px;
+    justify-content: center;
+}
+
+.grid .coluna .txt{
+    margin: 0 0 0 30px;
+    font-size: 18px;
+    display: block;
+}
+
+.grid .coluna{
+    max-width: 100%;
+    text-align: center;
+}
+
+p a:hover{
+    color: #f00000;
+}
+
+.imgbanner{
+    box-shadow: 0 0 10px #000;
+    border-radius: 5px;
+}
+
+.banner{
+    text-align: center;
+    margin: 30px 30px 5px 30px;
+}
+
+/*div .container{
+    width: 250px;
+
+}*/
+
+.conteudo{
+    margin: 0 0 10px 15px;
+}
+
+.tituloN{
+    margin: 0 0 15px 0;
+    text-align: center;
+}
+
+.propaganda{
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #000;
+}
+input, textarea{
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 10px;
+}
+
+button{
+    margin: 0 0 10px 10px;
+}
+
+input:valid{
+    background: url(imagens/checkcerto.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: calc(100% - 7px);
+}
+
+input:invalid{
+    background: url(imagens/checkerrado.png);
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position: calc(100% - 7px);
+}
+
+footer{
+    text-align: center;
+    background-color: #ff9100;
+    padding: 20px 0;
+    width: 100%;
+    color: #FFF;
+}
+
+footer p:hover{
+    color: #000;
+
+}
